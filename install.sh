@@ -101,7 +101,7 @@ gem install lolcat
 apt install wondershaper -y
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/indrisetyani987/SCRIPTMULTIPLUS/main/"
+    REPO="https://raw.githubusercontent.com/vpnmultiplus-89/MULTIPLUS/main/"
 
 ####
 start=$(date +%s)
@@ -300,8 +300,8 @@ TIMES=30
     fi
     local DATE_FORMAT=$(date '+%d-%m-%Y')
     local TIME_FORMAT=$(date '+%H:%M:%S')
-    local USRSC=$(wget -qO- https://raw.githubusercontent.com/allxdgh/script/main/register | grep "$ipsaya" | awk '{print $2}' | head -n 1)
-    local EXPSC=$(wget -qO- https://raw.githubusercontent.com/allxdgh/script/main/register | grep "$ipsaya" | awk '{print $3}' | head -n 1)
+    local USRSC=$(wget -qO- https://raw.githubusercontent.com/vpnmultiplus-89/ip_vps/main/ip | grep "$ipsaya" | awk '{print $2}' | head -n 1)
+    local EXPSC=$(wget -qO- https://raw.githubusercontent.com/vpnmultiplus-89/ip_vps/main/ip | grep "$ipsaya" | awk '{print $3}' | head -n 1)
     if [[ -z "$passwd" ]]; then
         local passwd_display="<i>(Tidak diubah/digunakan saat ini)</i>"
     else
