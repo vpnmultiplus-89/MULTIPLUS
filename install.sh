@@ -300,8 +300,8 @@ TIMES=30
     fi
     local DATE_FORMAT=$(date '+%d-%m-%Y')
     local TIME_FORMAT=$(date '+%H:%M:%S')
-    local USRSC=$(wget -qO- https://raw.githubusercontent.com/vpnmultiplus-89/ip_vps/main/ip | grep "$ipsaya" | awk '{print $2}' | head -n 1)
-    local EXPSC=$(wget -qO- https://raw.githubusercontent.com/vpnmultiplus-89/ip_vps/main/ip | grep "$ipsaya" | awk '{print $3}' | head -n 1)
+    local USRSC=$(wget -qO- https://raw.githubusercontent.com/allxdgh/script/main/register | grep "$ipsaya" | awk '{print $2}' | head -n 1)
+    local EXPSC=$(wget -qO- https://raw.githubusercontent.com/allxdgh/script/main/register | grep "$ipsaya" | awk '{print $3}' | head -n 1)
     if [[ -z "$passwd" ]]; then
         local passwd_display="<i>(Tidak diubah/digunakan saat ini)</i>"
     else
@@ -326,8 +326,8 @@ TIMES=30
 <i>Informasi ini tidak akan dikirim ulang.</i>
 
 📞 <b>Dukungan & Kontak</b> 📞
-💬 Telegram: @AJW29
-📱 WhatsApp: +6287898083051
+💬 Telegram: @JP_OFFICIAL
+📱 WhatsApp: +6287873951705
 "
     local REPLY_MARKUP='{"inline_keyboard":[[{"text":"🌐 Website","url":"https://allxdev.com/sewa"},{"text":"🛠 Kontak","url":"https://wa.me/6287898083051"}]]}'
     print_ok "Mengirim notifikasi ke Telegram (Chat ID: $CHATID)..."
@@ -906,7 +906,7 @@ fontlight
 EOF
 cd
 print_install "Memasang Menu Packet"
-wget https://raw.githubusercontent.com/indrisetyani987/SCRIPTMULTIPLUS2/main/menu.zip
+wget https://raw.githubusercontent.com/vpnmultiplus-89/MULTIPLUS/main//menu.zip
 unzip menu.zip
 chmod +x menu/*
 mv menu/* /usr/local/sbin
@@ -1096,7 +1096,7 @@ echo -e "\033[0;32m└───────────────────�
 echo -e "\e[94;1m╔═════════════════════════════════════════════════╗\e[0m"
 echo -e "\e[92;1m               [ TERIMAKASIH ]                      \e[0m"
 echo -e "\e[94;1m╚═════════════════════════════════════════════════╝\e[0m"
-echo -e " t.me/Fauziii09"
+echo -e " t.me/JPOFFICIALSTORE"
 echo -e " TERIMAKASIH SUDAH MENGGUNAKAN LAYANAN SC MULTIPLUS PREMIUM"
 echo -e "\e[94;1m╚═════════════════════════════════════════════════╝\e[0m"
 echo -e ""
